@@ -1,13 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
+
 package evento;
 
-/**
- *
- * @author Jarvis
- */
-interface Ingresso {
+
+abstract class Ingresso implements IngressoInterface {
+    
+    String nome;
+    String cpf;
+    Eventos tipo_evento;
+    double valor;
     
 }
